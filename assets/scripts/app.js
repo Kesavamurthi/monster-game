@@ -3,7 +3,7 @@ const MONSTER_ATTACK_VALUE= 11;
 const STRONG_ATTACK_VALUE=20;
 const HEAL_VALUE = 10;
 
-let chosenMaxLife = 100;
+let chosenMaxLife = parseInt(prompt("enter a value typically 100",'100'));
 let currentMonsterHealth = chosenMaxLife;
 let currenPlayerHealth = chosenMaxLife;
 
